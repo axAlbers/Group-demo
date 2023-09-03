@@ -8,77 +8,66 @@
 
     <style>
         body {
-            background-color: firebrick;
+            background-color: #1E001A;
         }
 
-        header {
-            background-image: url(https://i.pinimg.com/736x/35/9f/12/359f125a5b143c16a44fe02dad1c7510.jpg);
-
-            height: 100%;
-
-            
-
-            background-position: 50% 25%;
-            background-size: cover;
-            background-repeat: no-repeat;
-        }
-
-        ul {
-            padding: ;
-            margin: ;
+        .nav {
+            padding: 0;
             text-align: center;
-            
+            background-color: #140b3b;
             list-style-type: none;
             overflow: hidden;
+            filter: drop-shadow(4px 8px 24px);
+
+            top: 0;
+            width: 100%;
+            z-index: 1;
+            box-shadow: 0px 8px 16px 0px rgba(200, 0, rgba(101, 101, 161, 0.452), 0..725);
+            border-radius: 0px 0px 30px 30px;
         }
 
-        li {
+        .nav a.active {
+            float: inline-start;
+            flex-direction: column;
+        }
+
+        .nav a {
+            padding: 18px 20px;
+            display: block;
+            color: #6B1A0B;
+            font-size: 20px;
+            text-align: center;
+            filter: drop-shadow(4px 8px 24px);
+            background-color: black;
             float: left;
         }
 
-        li a {
-            padding: 14px 16px;
-            display: block;
-            color: black;
-            text-align: center;
-        }
-
-        li a:hover {
+        .nav a:hover {
             color: white;
         }
 
-        .flex-container {
-            height: 250px;
-            
-            display: flex;
-            align-items: center;
-            justify-content: center;
+        
+        h1 {
+            color: white;
         }
 
-        .flex-container > div {
-            
-            width: ;
-            height: ;
-            color: orange;
+        p {
+            color: white;
         }
+
     </style>
 
 </head>
 
 <body>
 
-    <header>
-        <div class="flex-container">
-            <div>
-                <ul>
-                    <li><a href="index.html">home</a></li>
-                    <li><a href="#">qwe</a></li>
-                    <li><a href="#">asd</a></li>
-                    <li><a href="#">hjk</a></li>
-                </ul>
-            </div>
-        </div>
-    </header>
+    
+     <div class="nav">
+        <a class="active" href="index.html">Home</a>
+
+
+     </div>
+      
 
 
     <h1>Tjena allihopa!!! Detta är min sida</h1>
