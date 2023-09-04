@@ -1,0 +1,68 @@
+
+  body {
+    margin: 0;
+    background-color: #000000;
+
+  }
+
+  .topnav {
+    background-color: #460259;
+    overflow: hidden;
+  
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0px 8px 16px 0px rgba(176, 13, 179, 0.782);
+    border-radius: 0px 0px 30px 30px;
+    
+  }
+
+  .topnav a {
+    float: left;
+    color: #460259;
+    text-align: center;
+    padding: 20px 10px;
+    text-decoration:none;
+    font-size: 27px;
+    width: 5%;
+   
+  
+  
+  
+  }
+
+  .topnav a:hover {
+
+  color: #993a6fe1;
+  
+  }
+  .topnav a.active {
+    background-color: #000000fc;
+    color: #993a6fe1;
+    flex-direction: column;
+   
+    border-radius: 5px 5px 5px 5px ;
+    float:inline-start;
+    
+  
+   }
+
+  li{
+
+  
+   color: #993a6fe1;
+   
+   font-size: 25px;
+
+}
+
+
+
+img {
+  max-width: 20%;
+  max-height: 20%;
+  padding: 23px;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+
