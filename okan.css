@@ -2,9 +2,64 @@
   body {
     margin: 0;
     background-color: #000000;
+ 
+ 
 
   }
+  .multi-button {
+    max-width: 220px;
+    padding: 10px 10px;
+    border-radius: 45px;
+    background: #460259;
+    border: 2px solid rgba(176, 13, 179, 0.782);
+}
+.meh1 {
+background-color:#FAB109;
+color:#460259;
+border: none;
+height: 30px;
+width: 30px;
+border-radius: 10px;
+cursor: pointer;
+padding-right: 60px;
+box-shadow: 0px 8px 16px 0px #fab20961;
+font-size:large;
+margin: 4px 2px;
+text-align: center;
+line-height: 25px;
+}
+.meh2 {
+  background-color:#FAB109;
+  color:#460259;
+  border: none;
+  height: 30px;
+  width: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  padding-right: 60px;
+  box-shadow: 0px 8px 16px 0px #fab20961;
+  font-size:large;
+  margin: 4px 2px;
+  text-align: center;
+  line-height: 25px;
+  }
+  .meh3 {
+    background-color:#FAB109;
+    color:#460259;
+    border: none;
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 8px 16px 0px #fab20961;
+    padding-right: 60px;
+    font-size:large;
+    margin: 4px 2px;
+    text-align: center;
+    line-height: 25px;
+    }
 
+  
   .topnav {
     background-color: #460259;
     overflow: hidden;
@@ -64,5 +119,6 @@ img {
   padding: 23px;
   text-align: center;
   background-repeat: no-repeat;
+ 
 }
 
